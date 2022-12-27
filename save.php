@@ -76,4 +76,4 @@ if (!$resp) {
 	fail('could not write file',[]);
 }
 
-header('Location: ./gui.html');
+header('Location: '.FILE_NAME);
